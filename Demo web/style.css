@@ -1,0 +1,144 @@
+body{
+  color: #fff;
+  background-image: url("solar.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  animation: fade-in 1.5s;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+@keyframes fade-in{
+  0%{
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  
+  100%{
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+
+.header{
+  
+}
+
+.logo{
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  
+}
+
+.links{
+  list-style: none;
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.link-list{
+  margin-right: auto;
+  margin-left: -4px;
+  
+}
+
+.link{
+  text-decoration: none;
+  color: rgba(244, 74, 3, 1);
+  font-weight: 400;
+  font-size: 15px;
+  transition: all 0.5s;
+}
+
+.link:hover{
+  color: rgba(225, 225, 225, 1);
+}
+
+
+/* MAIN */
+.main{
+  text-align: center;
+  margin-top: 0px;
+}
+
+.heading{
+  font-size: 35px;
+  font-weight: 800;
+  margin-bottom: 25px;
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 0.9;
+  font-size: 24px;
+}
+
+.text{
+  opacity: 0.7;
+  line-height: 1.4;
+}
+
+.form{
+  margin-top: 60px;
+}
+
+.input{
+  width: 290px;
+  height: 40px;
+  border: none;
+  padding-left: 30px;
+  border-radius: 5px;
+  opacity: 0.8;
+  outline: none;
+  transition: all 0.5s;
+}
+.input::placeholder {
+  color: black;
+}
+.input:focus{
+  opacity: 1;
+}
+
+.btn{
+  border: none;
+  padding: 0;
+  background-color: #9A9A9A;
+  color: white;
+  width: 60px;
+  height: 43px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 10px;
+  font-weight: 500;
+  transition: all 0.5s;
+}
+.btn:hover{
+  cursor: pointer;
+  background-color: #353535;
+}
+
+/*FOOTER*/
+.footer{
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  padding-bottom: 8px;
+  border-top: 1px solid #D2D2D2;
+  padding-top: 9px;
+}
+.copyright{
+  
+}
+.stats{
+  
+}
